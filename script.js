@@ -3,7 +3,7 @@
     const fetchWeather = function (city) {
 
 
-const apikey = config.SECRET_API_KEY;  //generate an api key from openweathermap.org by creating a free account 
+const apikey = "5efd8ee99b2941e04ea8282c00ff9ff0"  //generate an api key from openweathermap.org by creating a free account 
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
           city +
